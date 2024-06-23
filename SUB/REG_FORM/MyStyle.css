@@ -1,0 +1,351 @@
+.header{
+	text-align: Center;
+}
+body{
+	font-family: Arial;
+	color: maroon;
+	justify-content: Center;
+	align-items: Center;
+	display: flex;
+	
+	
+}
+.main_cont{
+	min-width: 100px;
+	max-width: 1000px;
+	margin: 30px;
+	padding: 30px;
+	box-shadow: 0 20px 50px rgba(0.0.0.10);
+	
+}
+.cct-logo{
+	object-fit: contain;
+	width: 155px;
+	height: 155px;
+	margin-right: 40px;
+	right: 575px;
+	float: right;
+	float: top;
+}
+.tc-logo{
+	
+	width: 150px;
+	height: 150px;
+	margin-left: 50px;
+	left: 575px;
+	float: top;
+	float: left;
+}
+
+
+p.sp{
+	line-height: 0.9;
+	font-size :19px;
+} 
+
+b.sp_b{
+	line-height: 0.9;
+	font-size: 22.5px;
+} 
+
+b.sp_b1{
+	font-size: 20px;
+} 
+b.sp_b2{
+	font-size: 18px;
+	color: black;
+} 
+
+/*REG-TABLE*/
+
+
+
+.Ri_tbl{
+	padding-top: 15px;
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-bottom: 50px;
+}
+.brd{
+	padding-bottom: 20px;
+	padding-left: 15px;
+}
+.left-pad{
+	padding-left: 15px;
+	
+}
+.val1{
+	font-weight: bold;
+	color: black;
+	padding-bottom: 20px;
+}
+.date1{
+	padding-top: 20px;
+}
+.val2{
+	font-weight: bold;
+	color: black;
+	padding-top: 20px;
+}
+
+table{
+	border: 1px solid;
+	border-collapse: collapse;
+	left: 70%;
+	
+}
+
+
+.ri_hdr{
+	letter-spacing: 1.5px;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	background-color: maroon;
+	
+}
+
+td.val{
+	font-weight: bold;
+	color: black;
+}
+td.sec{
+	text-align: center;
+}
+td.sec1{
+	text-align: center;
+	padding-bottom: 220px;
+}
+td.sec2{
+	padding-bottom: 220px;
+}
+
+
+.sec_tbl td{
+
+	font-weight: bold;
+}
+.t_data{
+	color: black;
+	border-collapse: collapse;
+	
+
+
+}
+.sec_tbl th{
+	border-bottom: 1px solid;
+	border-right: 1px solid;
+
+}
+.empt_spc{
+	padding-bottom: 70px;
+
+
+}
+.t_data td{
+	border-right: 1px solid;
+
+}
+.sub_hdr{
+	background-color: #FFE32C;
+}
+
+/*scholar grant table*/
+
+.container {
+        display: flex;
+        justify-content: space-around;
+}
+
+
+.schol{
+	border-collapse: collapse;
+        width: 45%;
+	
+}
+.sch{
+	text-align: left;
+	padding-left: 10px;
+	
+}
+.paym{
+	border-collapse: collapse;
+    width: 55%;
+	
+}
+.footr{
+	border-collapse: collapse;
+    width: 100%;
+	margin-top: 20px;
+}
+.fhep{
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	border-bottom: 1px solid;
+}
+.fhep1{
+	border-bottom: 1px solid;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: left;
+	padding-left: 10px;
+	
+	
+}
+.afcol2{
+	font-weight: bold;
+	color: black;
+	text-align: right;
+	padding-right: 40px;
+	padding-right: 80px;
+	
+}
+.afcol1{
+	padding-left: 20px;
+	border-right: 1px solid;
+	border-collapse: collapse;
+	
+}
+.total{
+	border-top: 1px solid;
+	border-right: 1px solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	padding-left: 10px;
+	
+}
+.val_total{
+	border-top: 1px solid;
+	font-weight: bold;
+	color: black;
+	border-color: maroon;
+	text-align: right;
+	padding-right: 40px;
+	padding-right: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.emp{
+	border-top: 1px solid;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	border-right: 1px solid;
+
+}
+
+.emp1{
+	border-top: 1px solid;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	
+
+}
+
+.assessed{
+	border-top: 1px solid;
+	border-right: 1px solid;
+	text-align: left;
+	padding-left: 10px;
+	
+	
+}
+.val_assess{
+	font-weight: bold;
+	color: maroon;
+	border-top: 1px solid;
+	text-align: right;
+	padding-right: 40px;
+}
+
+.none{
+	
+	padding-bottom: 40px;
+	border-right: 1px solid;
+	
+}
+.none1{
+	text-align: right;
+	padding-right: 40px;
+
+}
+
+/*payment table*/
+
+.pd{
+	text-align: left;
+	border-bottom: 1px solid;
+	padding-left: 10px;
+}
+.tp{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.topcol2{
+	font-weight: bold;
+	color: black;
+	text-align: right;
+	padding-right: 40px;
+	padding-right: 80px;
+	
+}
+.topcol1{
+	padding-left: 40px;
+	
+	
+}
+.ROF{
+	border-top: 1px solid;
+	font-weight: bold;
+	color: maroon;
+	text-align: center;
+}
+.frst_ind{	
+	text-indent: 9%;
+	
+}
+
+.secnd_ind{	
+	text-indent: 14%;
+	
+}
+.numb1{	
+	text-indent: 17%;
+	
+}
+.numb2{	
+	text-indent: 12%;
+	
+}
+.frs_ln{
+	padding-left: 20px;
+	padding-top: 40px;
+	text-align: left;
+	
+}
+.scnd_ln{
+	padding-right: 20px;
+	text-align: left;
+	padding-bottom: 10px;
+	
+}
+.scnd_ln1{
+	padding-right: 60px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

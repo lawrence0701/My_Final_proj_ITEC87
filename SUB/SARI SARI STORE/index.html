@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tatiana Factory Outlet</title>
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+
+    <a href="#" class="logo">
+        <img src="images/ss1.png" alt="">
+
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#jeans">Jeans</a>
+        <a href="#t-shirt">T-shirt</a>
+        <a href="#perfume">Perfume</a>
+        <a href="#sando">Tank Tops</a>
+        <a href="#toys">Toys</a>
+        <a href="../../index.html">Go Back</a>
+    </nav>
+
+    <div class="icons">
+        <div class="crt" id="cart-btn"><p>Cart</p></div>
+        <div id="stock-btn"><p>Stocks</p></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+        
+    </div>
+    <div class="stocks-items-container" id="float-stocks">
+        <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/J1.jpg" alt="">
+            <div class="content">
+                <h3>Skinny Jeans</h3>
+                <div id="container" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result" value=25>
+                <input type="number" name="pree" id="inp_stck_jeans" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+         <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/J2.jpg" alt="">
+            <div class="content">
+                <h3>Straight Jeans</h3>
+                <div id="container1" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result1" value=35>
+                <input type="number" name="pree" id="inp_stck_jeans1" placeholder="Add stocks here">
+            </div>
+            </div>
+            
+        </div>
+        <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/J3.jpg" alt="">
+            <div class="content">
+                <h3>Flared Jeans</h3>
+                <div id="container2" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result2" value=8>
+                <input type="number" name="pree" id="inp_stck_jeans2" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+        <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/J4.jpg" alt="">
+            <div class="content">
+                <h3>Wide/Loose Jeans</h3>
+                <div id="container3" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result3" value=46>
+                <input type="number" name="pree" id="inp_stck_jeans3" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div> 
+		<!-- t-shirt starts  -->
+		<div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/S1.jpg" alt="">
+            <div class="content">
+                <h3>White Roundneck T-Shirt</h3>
+                <div id="container4" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result4" value=90>
+                <input type="number" name="pree" id="inp_stck_shirt1" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+		<div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/S2.jpg" alt="">
+            <div class="content">
+                <h3>Linen Shirt</h3>
+                <div id="container5" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result5" value=61>
+                <input type="number" name="pree" id="inp_stck_shirt2" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+		<div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/S3.jpg" alt="">
+            <div class="content">
+                <h3>Blue Polo Shirt</h3>
+                <div id="container6" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result6" value=34>
+                <input type="number" name="pree" id="inp_stck_shirt3" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+		<div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/S4.jpg" alt="">
+            <div class="content">
+                <h3>Flannel Shirt</h3>
+                <div id="container7" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result7" value=29>
+                <input type="number" name="pree" id="inp_stck_shirt4" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+		<!-- perfume starts  -->
+		<div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/P1.jpg" alt="">
+            <div class="content">
+                <h3>Giorgio Armani</h3>
+                <div id="container8" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result8" value=10>
+                <input type="number" name="pree" id="inp_stck_perf1" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+		<div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/P2.jpg" alt="">
+            <div class="content">
+                <h3>Christian Dior Sauvage</h3>
+                <div id="container9" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result9" value=12>
+                <input type="number" name="pree" id="inp_stck_perf2" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+		<div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/P3.jpg" alt="">
+            <div class="content">
+                <h3>Acqua Di Parma</h3>
+                <div id="container10" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result10" value=8>
+                <input type="number" name="pree" id="inp_stck_perf3" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+		<div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/P4.jpg" alt="">
+            <div class="content">
+                <h3>Gentleman Givenchy</h3>
+                <div id="container11" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result11" value=15>
+                <input type="number" name="pree" id="inp_stck_perf4" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+        <!-- tank top starts  -->
+        <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/T1.jpg" alt="">
+            <div class="content">
+                <h3>Basic White Tank Top</h3>
+                <div id="container12" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result12" value=48>
+                <input type="number" name="pree" id="inp_stck_tank1" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+
+        <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/T2.jpg" alt="">
+            <div class="content">
+                <h3>Black Racerback Tank Top</h3>
+                <div id="container13" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result13" value=56>
+                <input type="number" name="pree" id="inp_stck_tank2" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+
+        <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/T3.jpg" alt="">
+            <div class="content">
+                <h3>Double Layer Tank Top</h3>
+                <div id="container14" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result14" value=29>
+                <input type="number" name="pree" id="inp_stck_tank3" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+
+        <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/T4.jpg" alt="">
+            <div class="content">
+                <h3>Gym Stringer Tank Top</h3>
+                <div id="container15" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result15" value=110>
+                <input type="number" name="pree" id="inp_stck_tank4" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+        <!-- toys starts  -->
+        <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/TY1.jpg" alt="">
+            <div class="content">
+                <h3>Hot Wheels</h3>
+                <div id="container16" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result16" value=15>
+                <input type="number" name="pree" id="inp_stck_toy1" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+
+        <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/TY2.jpg" alt="">
+            <div class="content">
+                <h3>NISSAN GT-R(R34) Lego</h3>
+                <div id="container17" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result17" value=12>
+                <input type="number" name="pree" id="inp_stck_toy2" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+
+        <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/TY3.jpg" alt="">
+            <div class="content">
+                <h3>3X3 GAN 356 Rubik's Cube</h3>
+                <div id="container18" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result18" value=12>
+                <input type="number" name="pree" id="inp_stck_toy3" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+
+        <div class="stocks-item">
+            <span class="fas fa-times"></span>
+            <img src="images/TY4.jpg" alt="">
+            <div class="content">
+                <h3>Transformer Optimum Pride</h3>
+                <div id="container19" class="cont">
+                <label for="">Stocks: </label><input class="price" id="result19" value=12>
+                <input type="number" name="pree" id="inp_stck_toy4" placeholder="Add stocks here">
+                
+            </div>
+            </div>
+            
+        </div>
+
+		
+        <a  class="btn" onclick="myFunction()">Confirm Changes</a>
+
+       
+    </div>
+    
+    
+     <!--add-cart start -->
+    <div class="cart-items-container">
+    <div class="cart-item">
+        <div class="content">
+            <h3>Shopping Cart</h3>
+            <ul id="cart"></ul>
+            
+            <div class="disc">
+                <label for="" class="choose_dis">Choose discount:</label>
+                <form id="discount">
+                    <input type="radio" id="senior" name="discount" value="0.2"><label for="senior">Senior (20%)</label><br>
+                    <input type="radio" id="pwd" name="discount" value="0.3"><label for="pwd">PWD (30%)</label><br>
+                    <input type="radio" id="student" name="discount" value="0.1"><label for="student">Student (10%)</label><br>
+                    <input type="radio" id="none" name="discount" value="0" checked><label for="none">None</label><br>
+                    <div id="subtotal">Subtotal: $<span id="subtotalValue">0</span></div>
+                </form>
+                
+                <button class="btn apply-discount-btn">Apply Discount</button>
+                <div id="total">Total Amount: $<span id="totalValue">0</span></div>
+                <label for="" class="enter_am">Enter Amount:</label>
+                <input type="number" id="amountInput">
+                
+                <button onclick="updateCart()" class="btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+       
+     <!--add-cart end -->
+    
+    
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Where Fashion Meets Functionality</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+        <a href="#jeans" class="btn" ><span>Explore</span></a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- jeans section starts  -->
+
+<section class="item" id="jeans">
+
+    <h1 class="heading"> our <span>jeans</span> </h1>
+
+    <div class="box-container">
+        
+            <div class="card" id="Skinny">
+                <img src="images/J1.jpg" alt="Skinny Jeans" style="width:100%">
+                <h1>Skinny Jeans</h1>
+                <p><span class="price">21</span>$</p>
+                <div id="jns"><label for="">stocks: </label><input class="stcks" id="new_jeans" value=25 readonly></div>
+                <button>Add to Cart</button>
+            </div>
+         <div class="card" id="Straight">
+                <img src="images/J2.jpg" alt="Straight Jeans" style="width:100%">
+                <h1>Straight Jeans</h1>
+                <p><span class="price">21</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_jeans1" value=35 readonly></div>
+                <button>Add to Cart</button>
+            </div>
+
+         <div class="card" id="Flared">
+                <img src="images/J3.jpg" alt="Flared Jeans" style="width:100%">
+                <h1>Flared Jeans</h1>
+                <p><span class="price">22</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_jeans2" value=8 readonly></div>
+                <button>Add to Cart</button>
+            </div>
+
+         <div class="card" id="Wide">
+                <img src="images/J4.jpg" alt="Wide/Loose Jeans" style="width:100%">
+                <h1>Wide/Loose Jeans</h1>
+                <p><span class="price">20</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_jeans3" value=46 readonly></div>
+                <button>Add to Cart</button>
+            </div>
+
+             
+    </div>
+
+</section>
+
+<!-- jeans section ends -->
+
+<!-- t-shirts section starts -->
+
+<section class="item" id="t-shirt">
+
+    <h1 class="heading"> our <span>t-shirts</span> </h1>
+
+    <div class="box-container">
+
+        
+            <div class="card" id="t_shirt">
+                <img src="images/S1.jpg" alt="White roundneck t-shirt" style="width:100%">
+                <h1>White roundneck t-shirt</h1>
+                <p><span class="price">7</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_shirt" value=90 readonly></div>
+                <button>Add to Cart</button>
+            </div>
+         <div class="card" id="Linen">
+                <img src="images/S2.jpg" alt="Linen Shirt" style="width:100%">
+                <h1>Linen Shirt</h1>
+                <p><span class="price">6</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_shirt1" value=61 readonly></div>
+                <button>Add to Cart</button>
+            </div>
+
+         <div class="card" id="Polo">
+                <img src="images/S3.jpg" alt="Blue Polo Shirt" style="width:100%">
+                <h1>Blue Polo Shirt</h1>
+                <p><span class="price">9</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_shirt2" value=34 readonly></div>
+                <button>Add to Cart</button>
+            </div>
+
+         <div class="card" id="Flannel">
+                <img src="images/S4.jpg" alt="Flannel Shirt" style="width:100%">
+                <h1>Flannel Shirt</h1>
+                <p><span class="price">8</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_shirt3" value=29 readonly></div>
+                <button>Add to Cart</button>
+            </div>
+
+
+    </div>
+
+</section>
+
+<!-- t-shirts section ends -->
+
+<!-- perfume section starts  -->
+
+<section class="item" id="perfume">
+
+    <h1 class="heading"> our <span>perfumes</span> </h1>
+
+    <div class="box-container">
+
+        
+            <div class="card" id="gior">
+                <img src="images/P1.jpg" alt="Giorgio Armani" style="width:100%">
+                <h1>Giorgio Armani</h1>
+                <p><span class="price">50</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_perf" value=10 readonly></div>
+                <button>Add to Cart</button>
+            </div>
+         <div class="card" id="chr">
+                <img src="images/P2.jpg" alt="Christian Dior Sauvage" style="width:100%">
+                <h1>Christian Dior Sauvage</h1>
+                <p><span class="price">45</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_perf1" value=12 readonly></div>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+         <div class="card" id="acq">
+                <img src="images/P3.jpg" alt="Acqua Di Parma" style="width:100%">
+                <h1>Acqua Di Parma</h1>
+                <p><span class="price">45</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_perf2" value=8 readonly></div>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+         <div class="card" id="gent">
+                <img src="images/P4.jpg" alt="Gentlemen Givenchy" style="width:100%">
+                <h1>Gentlemen Givenchy</h1>
+                <p><span class="price">52</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_perf3" value=15 readonly></div>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+
+    </div>
+
+</section>
+
+<!-- perfume section ends -->
+
+<!-- sando section starts  -->
+
+<section class="item" id="sando">
+
+    <h1 class="heading"> our <span>tank tops</span> </h1>
+
+    <div class="box-container">
+
+        
+            <div class="card" id="white">
+                <img src="images/T1.jpg" alt="Basic White Tank Top" style="width:100%">
+                <h1>Basic White Tank Top</h1>
+                <p><span class="price">4</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_tank" value=48 readonly></div>
+                <p><button>Add to Cart</button></p>
+            </div>
+         <div class="card" id="black">
+                <img src="images/T2.jpg" alt="Black Racerback Tank Top" style="width:100%">
+                <h1>Black Racerback Tank Top</h1>
+                <p><span class="price">3</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_tank1" value=56 readonly></div>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+         <div class="card" id="double">
+                <img src="images/T3.jpg" alt="Double Layer Tank Top" style="width:100%">
+                <h1>Double Layer Tank Top</h1>
+                <p><span class="price">5</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_tank2" value=29 readonly></div>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+         <div class="card" id="gym">
+                <img src="images/T4.jpg" alt="Gym Stringer Tank Top" style="width:100%">
+                <h1>Gym Stringer Tank Top</h1>
+                <p><span class="price">8</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_tank3" value=110 readonly></div>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+
+    </div>
+
+</section>
+
+<!-- sando section ends -->
+
+<!-- toys section starts  -->
+
+<section class="item" id="toys">
+
+    <h1 class="heading"> our <span>toys</span> </h1>
+
+    <div class="box-container">
+
+        
+            <div class="card" id="hot">
+                <img src="images/TY1.jpg" alt=">Hot Wheels" style="width:100%">
+                <h1>Hot Wheels</h1>
+                <p><span class="price">10</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_toy" value=15 readonly></div>
+                <p><button>Add to Cart</button></p>
+            </div>
+         <div class="card" id="nissan">
+                <img src="images/TY2.jpg" alt="NISSAN GT-R(R34) Lego" style="width:100%">
+                <h1>NISSAN GT-R(R34) Lego</h1>
+                <p><span class="price">15</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_toy1" value=12 readonly></div>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+         <div class="card" id="gan">
+                <img src="images/TY3.jpg" alt="3X3 GAN 356 Rubik's Cube" style="width:100%">
+                <h1>3X3 GAN 356 Rubik's Cube</h1>
+                <p><span class="price">6</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_toy2" value=12 readonly></div>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+         <div class="card" id="gent">
+                <img src="images/TY4.jpg" alt="Transformer Optimum Pride" style="width:100%">
+                <h1>Transformer Optimum Pride</h1>
+                <p><span class="price">15</span>$</p>
+                <div id="jns"><label for="">Stocks: </label><input class="stcks" id="new_toy3" value=12 readonly></div>
+                <p><button>Add to Cart</button></p>
+            </div>
+
+
+    </div>
+
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- toys section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+
+    <div class="links">
+        <a href="#">home</a>
+        <a href="#">jeans</a>
+        <a href="#">t-shirts</a>
+        <a href="#">perfume</a>
+        <a href="#">tank top</a>
+        <a href="#">toys</a>
+        
+    </div>
+
+    <div class="credit">created by <span>ME</span> | all rights reserved</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/mynewscript.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+<!-- credits to mr. web designer -->
